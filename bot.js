@@ -11,7 +11,7 @@ const openai = new OpenAIApi(configuration);
 
 async function onMessage (message) {
     if (await message.mentionSelf()) {
-        const text = message.text().replace('@' + UEST_NAME,'').trim()
+        const text = message.text().replace('@' + USER_NAME,'').trim()
         console.info(text)
         const data = text 
         const room = message.room()
