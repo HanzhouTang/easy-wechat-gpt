@@ -15,7 +15,7 @@ node bot.js
 将第十三行`USER_NAME`换成你自己的微信名。 
 
 ```
-nod
+node bot.js
 ```
 
 ### Powered by 
